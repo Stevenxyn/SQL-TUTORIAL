@@ -6,4 +6,5 @@ y termine con la letra "e"
 
 SELECT *
 FROM Clientes
-WHERE Nombre LIKE ''
+WHERE Nombre LIKE '%E' AND
+	  Nombre LIKE '_A%'
